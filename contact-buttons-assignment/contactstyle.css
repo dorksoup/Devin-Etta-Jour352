@@ -1,0 +1,49 @@
+/*
+MY COLOR PALETTE
+Color 1 - #d9f1d9
+Color 2 - #d9dbf1
+Color 3 - #d9ec56
+Color 4 - #416165
+Color 5 - #0b3948
+*/
+
+body {
+    background-color: #d9dbf1;
+    color: #0b3948;
+    text-align: center;
+}
+
+.devin-button {
+    background-color: #d9ec56;
+    color: #0b3948; 
+    font-family: Courier New, monospace;
+    width: 110px;
+    padding: 7px;
+    margin-top: 50px;
+    border-width: thin; 
+    border-radius: 50px;
+    
+}
+
+.devin-button:hover {
+    background-color: #d9f1d9;
+    
+} 
+
+h1 {
+    font-family: 'Questrial', sans-serif; 
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 2px
+}
+
+
+
+
