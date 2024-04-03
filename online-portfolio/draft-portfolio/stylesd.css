@@ -1,0 +1,25 @@
+/*
+ * Plum = #8E5572
+ Purple = #443850
+ Green = #BBBE64
+ White = #F2F7F2
+ Beige = #BCAA99
+*/
+
+img {
+    width:80%;
+    border-radius: 15%;
+    padding:15px 0px 10px 0px
+
+}
+
+#topper {
+    
+}
+
+
+
+#footer {
+    background-color: #8E5572;
+    color:  #F2F7F2;
+}
