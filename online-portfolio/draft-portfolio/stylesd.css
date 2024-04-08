@@ -6,20 +6,28 @@
  Beige = #BCAA99
 */
 
-img {
-    width:80%;
-    border-radius: 15%;
-    padding:15px 0px 10px 0px
+@media {
 
-}
 
-#topper {
+    img {
+        width:80%;
+        border-radius: 15%;
+        padding:15px 0px 10px 0px
+
+    }
+
+    #topper {
+        background-color: #BCAA99;
+
+    }
+
+    h1 {
+
+    }
+
+    #footer {
+        background-color: #8E5572;
+        color:  #F2F7F2;
+    }
     
-}
-
-
-
-#footer {
-    background-color: #8E5572;
-    color:  #F2F7F2;
 }
