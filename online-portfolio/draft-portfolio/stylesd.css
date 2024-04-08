@@ -5,7 +5,7 @@
  White = #F2F7F2
  Beige = #BCAA99
 */
-
+/*regular smallest media screen size */
 @media {
 
 
@@ -22,12 +22,23 @@
     }
 
     h1 {
-
+        font-size: 75px;
+        color: #8E5572;
+        
     }
+    
+#devin-button {
+        border-width: thin; 
+        border-radius: 50px;
+}
 
     #footer {
         background-color: #8E5572;
         color:  #F2F7F2;
     }
+    
+}
+/*
+@media (min-width:576px) {
     
 }
