@@ -1,0 +1,86 @@
+/* Color Pallete */
+
+/* Phone width media query : default 576 max */
+@media {
+    body {
+        background-color: aliceblue;
+    }
+    
+    img {
+        width: 100%;
+    }
+    #topper {
+        background-image: url(IMG_2907.jpeg);
+        background-size: cover;
+        background-position: 10% 10%;
+    }
+
+    h1 {
+        padding: 5px 0px 0px 0px;
+        margin: 0px 00px 400px 0px;
+        background-color: aqua;
+    }
+
+    .caption {
+    }
+
+    .credit {
+    }
+
+    .date {
+    }
+
+    #content {
+        width: 100px;
+    }
+    
+    .pullquote {
+        border-left:2px solid black;
+        text-align: center;
+        padding: 10px 30px;
+        margin: 10px;
+        background-color: antiquewhite;
+        width: 70%;
+        float:right
+      
+    } 
+    
+    .quotemark-l {
+        font-size:120px;
+        float: left;
+        line-height: 80px;
+        font-family:cursive /*dd google font later */
+    }
+    .quotemark-r {
+        font-size:120px;
+        float: right;
+        font-family:cursive /*dd google font later */
+    }
+    .quote { 
+        font-size: 33px
+    }
+    
+    .attribution{
+        font-size:100%
+    }
+    
+    #disclaimer
+}
+
+@media (min-width: 576px) {
+    #content {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    #content {
+        width: 60%;
+    }
+    /* styles for devices lile laptop */
+    
+    .pullquote {
+          width: 100%;
+    
+    }
+}
