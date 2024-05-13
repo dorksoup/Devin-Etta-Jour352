@@ -5,7 +5,7 @@
     body {
         background-color: aliceblue;
     }
-    
+
     img {
         width: 100%;
     }
@@ -30,57 +30,53 @@
     .date {
     }
 
-    #content {
-        width: 100px;
+    .content {
+        width: 100%;
     }
-    
+
     .pullquote {
-        border-left:2px solid black;
+        border-left: 2px solid black;
         text-align: center;
         padding: 10px 30px;
         margin: 10px;
         background-color: antiquewhite;
         width: 70%;
-        float:right
-      
-    } 
-    
+        float: right;
+    }
+
     .quotemark-l {
-        font-size:120px;
+        font-size: 120px;
         float: left;
         line-height: 80px;
-        font-family:cursive /*dd google font later */
+        font-family: cursive; /*dd google font later */
     }
     .quotemark-r {
-        font-size:120px;
+        font-size: 120px;
         float: right;
-        font-family:cursive /*dd google font later */
+        font-family: cursive; /*dd google font later */
     }
-    .quote { 
-        font-size: 33px
+    .quote {
+        font-size: 33px;
     }
-    
-    .attribution{
-        font-size:100%
+
+    .attribution {
+        font-size: 100%;
     }
-    
-    #disclaimer
 }
 
 @media (min-width: 576px) {
-    #content {
+    .content {
         width: 70%;
     }
 }
 
 @media (min-width: 992px) {
-    #content {
+    .content {
         width: 60%;
     }
     /* styles for devices lile laptop */
-    
+
     .pullquote {
-          width: 100%;
-    
+        width: 100%;
     }
 }
